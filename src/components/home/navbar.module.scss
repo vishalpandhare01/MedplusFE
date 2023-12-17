@@ -1,0 +1,26 @@
+.nav {
+  padding: 16px;
+  li {
+    color: #ffffff;
+    width: 73px;
+    height: 30px;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    cursor: pointer;
+    margin: 3;
+    padding: 3;
+  }
+
+  li:hover{
+    color: rgb(46, 7, 82);
+  }
+  img{
+    width: 36px;
+    height: 36px;
+    top: 23px;
+    left: 1270px;
+  }
+}
