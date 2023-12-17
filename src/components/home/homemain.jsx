@@ -10,8 +10,8 @@ export default function HomeMain() {
       <section className="p-5">
         <div className="flex flex-wrap">
           <div className={styles.col1}>
-            <div className="flex">
-              <h2 className="text-4xl font-bold">Health Powered by</h2>
+            <div className="lg:flex">
+              <h2 className="text-5xl lg:text-4xl font-bold">Health Powered by</h2>
               <img src={logo} alt="logo" />
             </div>
             <div className="lg:mt-16">
@@ -43,8 +43,8 @@ export default function HomeMain() {
         </div>
         <div className="flex justify-center flex-wrap">
           <div className={styles.colreactngle1}>
-           <div> 
-           <h3 className="text-2xl font-semibold m-3">NATIONAL IMMUNIZATION AWARENESS MONTH</h3>
+           <div > 
+           <h3 className="lg:text-2xl font-semibold m-3">NATIONAL IMMUNIZATION AWARENESS MONTH</h3>
             <p className="text-xl m-3">
               Staying up to date on your vaccines can protect you and your loved
               ones from preventable diseases.
