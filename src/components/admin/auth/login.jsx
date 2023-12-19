@@ -16,7 +16,7 @@ export default function AdminLogin() {
       <section>
         <div>
           <div className="flex justify-center items-center mt-32">
-            <div className="flex justify-center items-center shadow-2xl flex-wrap ">
+            <div className="flex justify-center items-center shadow-2xl flex-wrap">
               <div className="border p-5">
                 <h3 className={styles.welcome}>Welcome Admin</h3>
                 <img src={login} alt="" width={420} />
@@ -54,9 +54,9 @@ export default function AdminLogin() {
               </div>
             </div>
           </div>
-          <div className="flex">
-            <img src={left} alt="" />
-            <img src={right} alt="" />
+          <div className="lg:flex hidden lg:visible ">
+            <img src={left} alt=""  className={styles.left} />
+            <img src={right} alt="" className={styles.right}/>
           </div>
         </div>
       </section>

@@ -12,5 +12,21 @@
   line-height: 54px;
   letter-spacing: 0em;
   text-align: left;
+}
 
+.left {
+  width: 851px;
+  height: 187px;
+  top: 644px;
+  // left: 1440px;
+  position: absolute;
+}
+
+.right {
+  width: 855px;
+  height: 187px;
+  // top: 967px;
+  left: 725px;
+  border: 1.3px;
+  position: relative;
 }
