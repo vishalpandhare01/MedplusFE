@@ -12,7 +12,7 @@ console.log(menu)
         <ul className="flex justify-end items-center">
           <li>Home</li>
           <li>About</li>
-          <li>Admin</li>
+          <li> <a href="/admin/login">Admin</a></li>
           <li>
             <div className="dropdown dropdown-bottom">
               <div tabIndex={0} role="button" className="btn m-1" onClick={()=>menu?setMenu(false):setMenu(true)}>

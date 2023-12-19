@@ -1,12 +1,14 @@
-import './App.css';
-import AdminLogin from './components/admin/auth/login';
-import HomePage from './pages/main';
+import "./App.css";
+import AdminRoutes from "./router/admin";
+import DoctorRouter from "./router/doctor";
+import UserRoutes from "./router/user";
 
 function App() {
   return (
-    <div className="App">
-      {/* <HomePage/> */}
-      <AdminLogin/>
+    <div>
+      <UserRoutes />
+      <AdminRoutes />
+      <DoctorRouter />
     </div>
   );
 }
